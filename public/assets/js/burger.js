@@ -3,6 +3,7 @@ $(function() {
     $(".create-form").on("submit", function(event) {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
+      event
   
       var newBurger = {
         burger_name: $("#burger").val().trim(),
